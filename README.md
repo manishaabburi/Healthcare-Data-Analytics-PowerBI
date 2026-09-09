@@ -108,7 +108,7 @@ Healthcare-PowerBI-Analytics/
 
 For the complete project documentation, including the **business problem, objectives, data preparation, DAX measures, dashboard analysis, insights, recommendations, and conclusion**:
 
-👉 [View Full Project Documentation](Documentation/Healthcare_Project_Documentation.pdf)
+👉 [View Full Project Documentation]([Documentation/Healthcare_Project_Documentation.pdf](https://github.com/manishaabburi/Healthcare-Data-Analytics-PowerBI/blob/main/Healthcare_PowerBI_Project_Report.pdf)
 
 ## 💡 Skills Demonstrated
 
