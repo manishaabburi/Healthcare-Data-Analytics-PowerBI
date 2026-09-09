@@ -6,7 +6,7 @@ The project demonstrates practical skills in **data cleaning, Power Query, DAX, 
 
 ## 📊 Dashboard Preview
 
-<img width="4150" height="2400" alt="Healthcare_Project Dashboard_page-0001" src="https://github.com/user-attachments/assets/caeaa8bf-0fac-46c8-b465-121b5041e7e0" />
+[<img width="4150" height="2400" alt="Healthcare_Project Dashboard_page-0001" src="https://github.com/user-attachments/assets/caeaa8bf-0fac-46c8-b465-121b5041e7e0" />](https://github.com/manishaabburi/Healthcare-Data-Analytics-PowerBI/blob/main/Healthcare_Project%20Dashboard_page-0001.jpg)
 
 ## 🎯 Project Objective
 
@@ -96,7 +96,7 @@ Healthcare-PowerBI-Analytics/
 │   └── Healthcare_Project_Dashboard.pdf
 │
 ├── Screenshots/
-│   └── healthcare_dashboard.png
+│   └── [healthcare_dashboard.png](https://github.com/manishaabburi/Healthcare-Data-Analytics-PowerBI/blob/main/Healthcare_Project%20Dashboard_page-0001.jpg)
 │
 ├── Documentation/
 │   └── Healthcare_Project_Documentation.pdf
