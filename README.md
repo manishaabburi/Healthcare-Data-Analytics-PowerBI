@@ -1,135 +1,117 @@
-# Healthcare Data Analytics Dashboard
+# 🏥 Healthcare Data Analytics Dashboard | Power BI
 
-## 📌 Project Overview
+An interactive **Power BI dashboard** developed to analyze **500 healthcare patient records** across patient demographics, health indicators, hospital utilization, and treatment costs.
 
-This project analyzes healthcare data using Microsoft Power BI to understand patient demographics, health indicators, hospital utilization, and treatment costs.
+The project demonstrates practical skills in **data cleaning, Power Query, DAX, data visualization, KPI development, and interactive dashboard design**.
 
-The dashboard provides an interactive view of patient characteristics and healthcare-related metrics, helping identify patterns across age groups, gender, smoking status, diabetes, hospital visits, BMI, and treatment costs.
+## 📊 Dashboard Preview
 
-## 🎯 Business Problem
+<img width="4150" height="2400" alt="Healthcare_Project Dashboard_page-0001" src="https://github.com/user-attachments/assets/2c7dc2d1-b5d2-47a1-9f6f-e2531705c86b" />
 
-Healthcare organizations generate large amounts of patient and treatment data. Analyzing this data can help identify patient trends, understand healthcare utilization, and monitor treatment costs.
+## 🎯 Project Objective
 
-The objective of this project is to transform raw healthcare data into an interactive Power BI dashboard that provides meaningful insights for data-driven decision-making.
+The objective of this project is to transform raw healthcare data into an interactive dashboard that helps users understand:
 
-## 🎯 Project Objectives
+* Patient demographics
+* Age-group distribution
+* Diabetes and smoking status
+* Hospital utilization
+* BMI
+* Treatment costs
+* Patient-level healthcare patterns
 
-- Analyze patient demographics by age and gender
-- Understand the distribution of smokers and non-smokers
-- Analyze diabetes prevalence
-- Examine hospital visits across different age groups
-- Analyze average BMI
-- Monitor average treatment costs
-- Explore the relationship between BMI and treatment cost
-- Create an interactive dashboard for healthcare data analysis
+## 📁 Dataset
 
-## 📊 Dataset
+The dataset contains **500 patient records** and **10 fields**:
 
-The dataset contains 500 patient records and 10 columns.
+`Patient_ID` | `Age` | `Gender` | `BMI` | `Blood_Pressure` | `Cholesterol_Level` | `Diabetes` | `Smoker` | `Hospital_Visits` | `Treatment_Cost`
 
-### Dataset Columns
+### Dataset Highlights
 
-| Column | Description |
-|---|---|
-| Patient_ID | Unique identifier for each patient |
-| Age | Age of the patient |
-| Gender | Gender of the patient |
-| BMI | Body Mass Index |
-| Blood_Pressure | Patient's systolic blood pressure |
-| Cholesterol_Level | Patient's cholesterol level |
-| Diabetes | Diabetes status (Yes/No) |
-| Smoker | Smoking status (Yes/No) |
-| Hospital_Visits | Number of hospital visits |
-| Treatment_Cost | Treatment cost associated with the patient |
+* **Patients:** 500
+* **Age Range:** 18–90
+* **Male:** 258
+* **Female:** 242
+* **Diabetes – Yes:** 234
+* **Diabetes – No:** 266
+* **Smokers:** 266
+* **Non-Smokers:** 234
 
+## 📈 Key KPIs
+
+| KPI                     |         Value |
+| ----------------------- | ------------: |
+| Total Patients          |       **500** |
+| Total Hospital Visits   |     **3,631** |
+| Average Hospital Visits |      **7.26** |
+| Average BMI             |     **27.62** |
+| Average Treatment Cost  | **10,731.44** |
+
+## 🔎 Key Insights
+
+* The **61+ age group** is the largest patient segment with **203 patients**.
+* The 61+ group has the highest average hospital visits at approximately **7.63 visits per patient**.
+* The dataset contains a relatively balanced gender distribution with **258 males and 242 females**.
+* **266 patients (53.2%)** are smokers.
+* **234 patients (46.8%)** have diabetes.
+* The overall average BMI is **27.62**.
+* The average treatment cost is approximately **10.73K**.
+
+> These findings represent analytical observations from the available dataset and should not be interpreted as clinical or medical conclusions.
+
+## 🎛️ Dashboard Features
+
+The dashboard includes:
+
+* Age Group Distribution
+* Age Distribution
+* Gender Analysis
+* Diabetes Analysis
+* Smoker Analysis
+* Hospital Visit Analysis
+* Average BMI
+* Treatment Cost Analysis
+* Interactive slicers for **Diabetes, Gender, and Smoker**
+  
 ## 🛠️ Tools & Technologies
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Visualization
-- Data Cleaning & Transformation
-- Data Analysis
+* **Microsoft Power BI**
+* **Power Query**
+* **DAX**
+* **CSV / Excel**
+* **GitHub**
 
-## 🔄 Project Workflow
+## 📂 Repository Structure
 
-1. Collected and loaded the healthcare dataset into Power BI
-2. Checked the dataset for data quality and consistency
-3. Performed data transformation using Power Query
-4. Created calculated measures using DAX
-5. Created age groups for demographic analysis
-6. Designed interactive visualizations
-7. Added slicers for Diabetes, Gender, and Smoker
-8. Analyzed healthcare utilization and treatment costs
-9. Developed the final interactive dashboard
+```text
+Healthcare-PowerBI-Analytics/
+│
+├── Dataset/
+│   └── healthcare_data.csv
+│
+├── PowerBI/
+│   └── Healthcare_Project.pbix
+│
+├── Dashboard/
+│   └── Healthcare_Project_Dashboard.pdf
+│
+├── Screenshots/
+│   └── healthcare_dashboard.png
+│
+├── Documentation/
+│   └── Healthcare_Project_Documentation.pdf
 
-## 📈 Dashboard KPIs
+## 📄 Documentation
 
-The dashboard includes the following key metrics:
+For the complete project documentation, including the **business problem, objectives, data preparation, DAX measures, dashboard analysis, insights, recommendations, and conclusion**:
 
-- Average Treatment Cost: $10.73K
-- Average BMI: 27.62
-- Total Hospital Visits: 4K
-- Total Patients: 500
-
-## 📊 Dashboard Visualizations
-
-The dashboard contains:
-
-- Age Distribution
-- Age Group Distribution
-- Gender Distribution
-- Average Hospital Visits by Age Group
-- Smoker Portion
-- Diabetes Portion
-- Average Treatment Cost
-- Average BMI
-- Total Hospital Visits
-- BMI vs Treatment Cost by Patient and Gender
-
-## 🔍 Key Insights
-
-- The dataset contains 500 patients.
-- The average patient age is approximately 53 years.
-- The average BMI is 27.62.
-- The average treatment cost is approximately $10.73K.
-- The dataset contains 266 smokers and 234 non-smokers.
-- The dataset contains 266 patients marked as diabetic and 234 marked as non-diabetic.
-- Hospital utilization varies across age groups.
-- The dashboard allows treatment cost and BMI patterns to be explored at the patient level.
-
-## 🎛️ Interactive Filters
-
-The dashboard provides filters for:
-
-- Diabetes
-- Gender
-- Smoker
-
-These filters allow users to dynamically explore the healthcare metrics and visualizations.
-
-## 📷 Dashboard Preview
-
-file:///C:/Users/Admin/Desktop/Data%20Anlytics/PowerBI/Healthcare_Project%20Dashboard.pdf
-
-## 📁 Project Files
-
-- `healthcare_data.csv` – Raw healthcare dataset
-- `Healthcare_Project Dashboard.pbix` – Power BI dashboard
-- `Healthcare_Project Dashboard.pdf` – Dashboard export
-- `Project_Report.docx` – Detailed project documentation
-- `screenshots/` – Dashboard screenshots
-- <img width="4150" height="2400" alt="Healthcare_Project Dashboard_page-0001" src="https://github.com/user-attachments/assets/ac0c4929-7423-4e19-9650-e6488e155dcb" />
+👉 [View Full Project Documentation](Documentation/Healthcare_Project_Documentation.pdf)
 
 
 ## 💡 Skills Demonstrated
 
-- Data Cleaning
-- Data Transformation
-- Data Visualization
-- Power BI Dashboard Development
-- DAX
-- Business Intelligence
-- Exploratory Data Analysis
-- KPI Development
-- Data Interpretation
+**Data Cleaning • Data Transformation • Data Modeling • DAX • KPI Development • Data Visualization • Power BI • Business Intelligence • Analytical Thinking**
+
+## ⭐ Project Summary
+
+This project demonstrates how **Power BI can transform raw healthcare data into an interactive business intelligence dashboard**, enabling users to explore patient demographics, health indicators, hospital utilization, and treatment costs through data-driven visual analysis.
