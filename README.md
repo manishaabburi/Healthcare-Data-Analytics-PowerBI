@@ -84,7 +84,7 @@ The dashboard includes:
 ## 📂 Repository Structure
 
 ```text
-Healthcare-PowerBI-Analytics/
+Healthcare-Data-Analytics-PowerBI/
 │
 ├── Dataset/
 │   └── healthcare_data.csv
