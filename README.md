@@ -96,7 +96,7 @@ Healthcare-PowerBI-Analytics/
 │   └── Healthcare_Project_Dashboard.pdf
 │
 ├── Screenshots/
-│   └── ![healthcare_dashboard.png](https://github.com/manishaabburi/Healthcare-Data-Analytics-PowerBI/blob/main/Healthcare_Project%20Dashboard_page-0001.jpg)
+│   └── healthcare_dashboard.png
 │
 ├── Documentation/
 │   └── Healthcare_Project_Documentation.pdf
