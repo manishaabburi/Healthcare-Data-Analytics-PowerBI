@@ -6,7 +6,7 @@ The project demonstrates practical skills in **data cleaning, Power Query, DAX, 
 
 ## 📊 Dashboard Preview
 
-<img width="4150" height="2400" alt="Healthcare_Project Dashboard_page-0001" src="https://github.com/user-attachments/assets/2c7dc2d1-b5d2-47a1-9f6f-e2531705c86b" />
+<img width="4150" height="2400" alt="Healthcare_Project Dashboard_page-0001" src="https://github.com/user-attachments/assets/caeaa8bf-0fac-46c8-b465-121b5041e7e0" />
 
 ## 🎯 Project Objective
 
@@ -72,7 +72,7 @@ The dashboard includes:
 * Average BMI
 * Treatment Cost Analysis
 * Interactive slicers for **Diabetes, Gender, and Smoker**
-  
+
 ## 🛠️ Tools & Technologies
 
 * **Microsoft Power BI**
@@ -100,15 +100,15 @@ Healthcare-PowerBI-Analytics/
 │
 ├── Documentation/
 │   └── Healthcare_Project_Documentation.pdf
-|
-│ └── README.md
+│
+└── README.md
+```
 
 ## 📄 Documentation
 
 For the complete project documentation, including the **business problem, objectives, data preparation, DAX measures, dashboard analysis, insights, recommendations, and conclusion**:
 
 👉 [View Full Project Documentation](Documentation/Healthcare_Project_Documentation.pdf)
-
 
 ## 💡 Skills Demonstrated
 
